@@ -1,0 +1,14 @@
+version: "3.1"
+rules:
+- rule: respond to hygiene
+  steps:
+  - intent: ask_hygiene
+  - action: utter_hygiene
+- rule: respond to vaccination
+  steps:
+  - intent: ask_vaccination
+  - action: utter_vaccination
+- rule: respond to doctor consultation
+  steps:
+  - intent: ask_doctor_consultation
+  - action: utter_doctor_consultation

@@ -1,0 +1,50 @@
+{
+    "first_aid": [
+        {
+            "condition": "Minor Cuts and Scrapes",
+            "steps": [
+                "Wash your hands with soap and water before touching the wound.",
+                "Rinse the wound with clean, running water to remove dirt and debris.",
+                "Apply gentle pressure with a clean cloth or bandage to stop any bleeding.",
+                "Apply an antiseptic cream or ointment.",
+                "Cover the wound with a sterile bandage to keep it clean and prevent infection."
+            ],
+            "source_name": "American Red Cross; various health ministries",
+            "source_url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/cuts-scrapes-and-bruises"
+        },
+        {
+            "condition": "Minor Burns",
+            "steps": [
+                "Immediately cool the burn by holding it under cool, running water for 15-20 minutes.",
+                "Do NOT use ice, butter, or toothpaste, as this can cause further damage.",
+                "Gently cover the burn with a sterile, non-adhesive bandage or a clean cloth.",
+                "Take over-the-counter pain medication if needed."
+            ],
+            "warning": "Seek immediate medical help for severe burns (blistered, charred skin, or large area).",
+            "source_name": "American Red Cross; WHO",
+            "source_url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns"
+        }
+    ],
+    "emergency_contacts": [
+        {
+            "service": "General Emergency (Police, Fire, Ambulance)",
+            "number": "112",
+            "description": "India's unified emergency number for all emergencies."
+        },
+        {
+            "service": "Ambulance",
+            "number": "108",
+            "description": "Toll-free emergency ambulance service across India."
+        },
+        {
+            "service": "Health Helpline",
+            "number": "104",
+            "description": "A 24/7 toll-free health helpline for medical advice, information, and grievance redressal."
+        },
+        {
+            "service": "Mental Health Helpline (Tele-MANAS)",
+            "number": "14416",
+            "description": "A 24/7 mental health support helpline from the Ministry of Health and Family Welfare."
+        }
+    ]
+}

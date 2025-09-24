@@ -1,0 +1,69 @@
+{
+  "general_instructions": {
+    "hygiene": {
+      "en": "Remember to maintain good hygiene: wash your hands with soap and water, avoid touching your face, and keep your surroundings clean.",
+      "hi": "अच्छी स्वच्छता बनाए रखना याद रखें: अपने हाथों को साबुन और पानी से धोएं, अपने चेहरे को छूने से बचें, और अपने आस-पास को साफ रखें।",
+      "or": "ଉତ୍ତମ ସ୍ୱଚ୍ଛତା ବଜାୟ ରଖିବାକୁ ମନେରଖନ୍ତୁ: ସାବୁନ ଏବଂ ପାଣିରେ ହାତ ଧୁଅନ୍ତୁ, ନିଜ ମୁହଁକୁ ଛୁଇଁବା ଠାରୁ ଦୂରେଇ ରୁହନ୍ତୁ, ଏବଂ ନିଜ ଆଖପାଖକୁ ପରିଷ୍କାର ରଖନ୍ତୁ।"
+    },
+    "vaccination": {
+      "en": "Vaccination is a powerful tool to prevent diseases. Please follow the recommended vaccination schedule for you and your family.",
+      "hi": "टीकाकरण बीमारियों को रोकने के लिए एक शक्तिशाली उपकरण है। कृपया अपने और अपने परिवार के लिए अनुशंसित टीकाकरण कार्यक्रम का पालन करें।",
+      "or": "ଟୀକାକରଣ ରୋଗରୁ ରକ୍ଷା କରିବା ପାଇଁ ଏକ ଶକ୍ତିଶାଳୀ ଉପକରଣ। ଦୟାକରି ଆପଣ ଏବଂ ଆପଣଙ୍କ ପରିବାର ପାଇଁ ସୁପାରିଶ କରାଯାଇଥିବା ଟୀକାକରଣ କାର୍ଯ୍ୟସୂଚୀକୁ ଅନୁସରଣ କରନ୍ତୁ।"
+    },
+    "doctor_consultation": {
+      "en": "Always consult a qualified healthcare professional for a proper diagnosis and treatment. This chatbot is for informational purposes only.",
+      "hi": "उचित निदान और उपचार के लिए हमेशा एक योग्य स्वास्थ्य पेशेवर से परामर्श लें। यह चैटबॉट केवल सूचनात्मक उद्देश्यों के लिए है।",
+      "or": "ଉପଯୁକ୍ତ ନିଦାନ ଏବଂ ଚିକିତ୍ସା ପାଇଁ ସର୍ବଦା ଜଣେ ଯୋଗ୍ୟ ସ୍ୱାସ୍ଥ୍ୟ ବୃତ୍ତିଧାରୀଙ୍କ ସହିତ ପରାମର୍ଶ କରନ୍ତୁ। ଏହି ଚାଟ୍‌ବଟ୍ କେବଳ ସୂଚନା ପାଇଁ ଅଟେ।"
+    }
+  },
+  "diseases": {
+    "tuberculosis": {
+      "symptoms": {
+        "en": [
+          "Persistent cough (lasting >2 weeks)",
+          "Blood in sputum",
+          "Chest pain",
+          "Night sweats",
+          "Weight loss",
+          "Fever and fatigue"
+        ],
+        "hi": [
+          "लगातार खांसी (2 सप्ताह से अधिक समय तक)",
+          "कफ में खून आना",
+          "सीने में दर्द",
+          "रात में पसीना आना",
+          "वजन घटना",
+          "बुखार और थकान"
+        ],
+        "or": [
+          "ଲଗାତାର କାଶ (2 ସପ୍ତାହରୁ ଅଧିକ ସମୟ ପର୍ଯ୍ୟନ୍ତ)",
+          "କଫରେ ରକ୍ତ",
+          "ଛାତି ଯନ୍ତ୍ରଣା",
+          "ରାତିରେ ଝାଳ ବାହାରିବା",
+          "ଓଜନ ହ୍ରାସ",
+          "ଜ୍ୱର ଏବଂ ଥକାପଣ"
+        ]
+      },
+      "preventions": {
+        "en": [
+          "Get BCG vaccination (in countries where recommended)",
+          "Ensure good ventilation in living spaces",
+          "Wear masks when exposed to active TB patients",
+          "Complete full TB treatment if diagnosed"
+        ],
+        "hi": [
+          "बीसीजी टीकाकरण करवाएं (उन देशों में जहां इसकी सिफारिश की जाती है)।",
+          "रहने की जगह में अच्छी वेंटिलेशन सुनिश्चित करें।",
+          "जब सक्रिय टीबी रोगियों के संपर्क में हों तो मास्क पहनें।",
+          "यदि निदान किया गया है तो पूरा टीबी उपचार पूरा करें।"
+        ],
+        "or": [
+          "BCG ଟୀକାକରଣ କରନ୍ତୁ (ଯେଉଁ ଦେଶରେ ସୁପାରିଶ କରାଯାଇଛି)",
+          "ବସିବା ସ୍ଥାନରେ ଉତ୍ତମ ବାତାସ ଚଳାଚଳ ସୁନିଶ୍ଚିତ କରନ୍ତୁ",
+          "ସକ୍ରିୟ TB ରୋଗୀଙ୍କ ସହିତ ସମ୍ପର୍କ ହେବାବେଳେ ମାସ୍କ ପିନ୍ଧନ୍ତୁ",
+          "ନିଦାନ ହେଲେ ସମ୍ପୂର୍ଣ୍ଣ TB ଚିକିତ୍ସା ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ"
+        ]
+      }
+    }
+  }
+}

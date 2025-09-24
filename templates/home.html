@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container {
+            width: 80%; 
+            margin: 0 auto;
+        }
+        h1 { text-align: center; }
+        .dashboard-option { 
+            margin-bottom: 20px;
+            padding: 15px; 
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         }
+
+         button{
+            height: 50px;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+
+        <div class="dashboard-option">
+            <h2>Broadcast Message</h2>
+            <p>Send a message to all connected users.</p>
+            <button onclick="location.href='/broadcast'">Go to Broadcast Page</button>
+        </div>
+
+        <!-- Add more dashboard options here as needed -->
+        <!-- Example: User Management -->
+        <!--
+        <div class="dashboard-option">
+            <h2>User Management</h2>
+            <p>Link to user management page or functionality.</p>
+             Add buttons or links for user actions
+        </div>
+        -->
+
+    </div>
+</body>
+</html>

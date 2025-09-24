@@ -1,0 +1,106 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey there
+    - Good morning
+    - Good evening
+    - नमस्ते
+    - ନମସ୍କାର
+    - How are you
+    - Hi there
+- intent: ask_hygiene
+  examples: |
+    - How to maintain hygiene?
+    - What are good hygiene practices?
+    - Tell me about personal hygiene
+    - How to keep clean?
+    - Best ways to maintain cleanliness
+    - How often should I wash my hands?
+    - स्वच्छता कैसे बनाए रखें?
+    - हाथ कितनी बार धोने चाहिए?
+    - अच्छी सफाई कैसे रखें?
+    - बीमारी में साफ सफाई कैसे रखें?
+    - ସ୍ୱଚ୍ଛତା କିପରି ରଖିବି?
+    - ହାତ କେତେ ଥର ଧୋଇବା ଦରକାର?
+    - ସଫା ସୁତୁରା କିପରି ରହିବି?
+    - ଅସୁସ୍ଥତାରେ ସ୍ୱଚ୍ଛତା କିପରି ରଖିବି?
+    - What are basic hygiene rules?
+    - How to stay hygienic during illness?
+- intent: ask_vaccination
+  examples: |
+    - Tell me about vaccination
+    - What vaccines does my baby need?
+    - When should I get vaccinated?
+    - Which vaccines are important?
+    - Vaccination schedule for children
+    - Are vaccines safe?
+    - What vaccines are needed for an infant?
+    - Required vaccinations for school
+    - टीकाकरण के बारे में बताएं
+    - बच्चे के लिए कौन से टीके जरूरी हैं?
+    - टीकाकरण कब करवाना चाहिए?
+    - क्या टीके सुरक्षित हैं?
+    - ଟୀକାକରଣ ବିଷୟରେ କୁହନ୍ତୁ
+    - ପିଲାଙ୍କ ପାଇଁ କେଉଁ ଟୀକା ଦରକାର?
+    - ଟୀକା କେବେ ନେବା ଉଚିତ?
+    - ଟୀକା ସୁରକ୍ଷିତ କି?
+    - What immunizations do I need?
+    - How often do I need booster shots?
+- intent: ask_doctor_consultation
+  examples: |
+    - Should I consult a doctor?
+    - क्या मुझे डॉक्टर से सलाह लेनी चाहिए?
+    - ମୁଁ ଡାକ୍ତରଙ୍କୁ ଦେଖିବି କି?
+- intent: ask_disease_symptoms
+  examples: |
+    - What are the symptoms of [tuberculosis](disease)?
+    - Tell me about [malaria](disease) symptoms
+    - What are signs of [dengue](disease)?
+    - How do I know if I have [covid](disease)?
+    - Symptoms of [diabetes](disease)
+    - What does [flu](disease) feel like?
+    - [तपेदिक](disease) के लक्षण क्या हैं?
+    - [ତୁବର୍କୁଲୋସିସ](disease) ର ଲକ୍ଷଣ କ'ଣ?
+    - How to identify [pneumonia](disease)?
+    - Signs and symptoms of [asthma](disease)
+    - What indicates [thyroid](disease) problems?
+    - What is [cancer](disease)?
+    - Tell me what [malaria](disease) is
+    - I want to know about [tuberculosis](disease)
+    - Explain [diabetes](disease) to me
+    - What causes [asthma](disease)?
+    - I am having [cancer](disease)
+    - Information about [dengue](disease)
+    - Can you explain what [covid](disease) is?
+    - Describe [pneumonia](disease)
+    - What exactly is [thyroid](disease)?
+    - [मलेरिया](disease) क्या है?
+    - [डेंगू](disease) के लक्षण बताएं
+    - मुझे [कोविड](disease) है क्या करूं?
+    - [मधुमेह](disease) के बारे में बताएं
+    - [କରୋନା](disease) କଣ?
+    - [ମଲେରିଆ](disease) ର ଲକ୍ଷଣ କ'ଣ?
+    - [ଡେଙ୍ଗୁ](disease) ବିଷୟରେ ଜଣାନ୍ତୁ
+    - ମୋତେ [ମଧୁମେହ](disease) ଅଛି
+- intent: ask_disease_prevention
+  examples: |
+    - How to prevent [tuberculosis](disease)?
+    - Ways to avoid getting [malaria](disease)
+    - How can I protect myself from [dengue](disease)?
+    - Prevention methods for [covid](disease)
+    - How to reduce risk of [diabetes](disease)
+    - Preventing [flu](disease) spread
+    - [तपेदिक](disease) से बचाव कैसे करें?
+    - [मलेरिया](disease) से कैसे बचें?
+    - [डेंगू](disease) से बचने के उपाय
+    - [कोविड](disease) से सुरक्षा कैसे करें?
+    - [ତୁବର୍କୁଲୋସିସ](disease) ରୁ କିପରି ବଚିବି?
+    - [ମଲେରିଆ](disease) ରୁ କିପରି ବଞ୍ଚିବି?
+    - [ଡେଙ୍ଗୁ](disease) ରୁ ସୁରକ୍ଷିତ ରହିବି କିପରି?
+    - [କରୋନା](disease) ରୁ କିପରି ସୁରକ୍ଷିତ ରହିବି?
+    - Best practices to avoid [pneumonia](disease)
+    - How to prevent [asthma](disease) attacks
+    - Tips to manage [thyroid](disease)

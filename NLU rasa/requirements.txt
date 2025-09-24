@@ -1,0 +1,11 @@
+rasa==1.10.2
+rasa-sdk
+sanic
+pyyaml
+aiohttp
+requests
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm

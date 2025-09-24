@@ -1,0 +1,58 @@
+{
+  "vaccination_schedule": [
+    {
+      "vaccine_name": "BCG",
+      "disease_prevented": "Tuberculosis",
+      "schedule": "At birth or as early as possible till one year of age.",
+      "source_name": "National Immunization Schedule, MoHFW, India",
+      "source_url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/Immunization/report/National_%20Immunization_Schedule.pdf"
+    },
+    {
+      "vaccine_name": "Oral Polio Vaccine (OPV)",
+      "disease_prevented": "Polio",
+      "schedule": "Doses at birth, 6 weeks, 10 weeks, and 14 weeks.",
+      "source_name": "National Immunization Schedule, MoHFW, India",
+      "source_url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/Immunization/report/National_%20Immunization_Schedule.pdf"
+    },
+    {
+      "vaccine_name": "Hepatitis B (Hep B)",
+      "disease_prevented": "Hepatitis B",
+      "schedule": "At birth, within 24 hours.",
+      "source_name": "National Immunization Schedule, MoHFW, India",
+      "source_url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/Immunization/report/National_%20Immunization_Schedule.pdf"
+    },
+    {
+      "vaccine_name": "Pentavalent Vaccine",
+      "disease_prevented": "Diphtheria, Pertussis, Tetanus, Hepatitis B, and Hemophilus influenzae type B",
+      "schedule": "Doses at 6 weeks, 10 weeks, and 14 weeks.",
+      "source_name": "National Immunization Schedule, MoHFW, India",
+      "source_url": "https://nhm.gov.in/New_Updates_2018/NHM_Components/Immunization/report/National_%20Immunization_Schedule.pdf"
+    },
+    {
+      "vaccine_name": "Measles and Rubella (MR) Vaccine",
+      "disease_prevented": "Measles and Rubella",
+      "schedule": "First dose at 9-12 months, second dose at 16-24 months.",
+      "source_name": "National Health Mission (NHM), MoHFW, India",
+      "source_url": "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=824&lid=220"
+    }
+  ],
+  "disease_info_odisha": [
+    {
+      "disease_name": "Japanese Encephalitis (JE)",
+      "symptoms": [
+        "Sudden onset of fever.",
+        "Headache.",
+        "Vomiting.",
+        "Altered mental status or convulsions (especially in children)."
+      ],
+      "transmission": "The disease is transmitted by mosquitoes from pigs to humans. It is a major health concern in specific endemic districts of Odisha.",
+      "prevention_methods": [
+        "Vaccination (in endemic districts).",
+        "Use of mosquito nets and repellents.",
+        "Vector control by relocating pig farms away from villages."
+      ],
+      "source_name": "Multiple sources on Odisha's official health website, ICMR reports",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4795344/"
+    }
+  ]
+}

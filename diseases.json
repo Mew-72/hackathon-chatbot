@@ -1,0 +1,139 @@
+
+{
+  "general_instructions": {
+    "hygiene": {
+      "en": "Remember to maintain good hygiene: wash your hands with soap and water, avoid touching your face, and keep your surroundings clean.",
+      "hi": "अच्छी स्वच्छता बनाए रखना याद रखें: अपने हाथों को साबुन और पानी से धोएं, अपने चेहरे को छूने से बचें, और अपने आस-पास को साफ रखें।",
+      "or": "ଉତ୍ତମ ସ୍ୱଚ୍ଛତା ବଜାୟ ରଖିବାକୁ ମନେରଖନ୍ତୁ: ସାବୁନ ଏବଂ ପାଣିରେ ହାତ ଧୁଅନ୍ତୁ, ନିଜ ମୁହଁକୁ ଛୁଇଁବା ଠାରୁ ଦୂରେଇ ରୁହନ୍ତୁ, ଏବଂ ନିଜ ଆଖପାଖକୁ ପରିଷ୍କାର ରଖନ୍ତୁ।"
+    },
+    "vaccination": {
+      "en": "Vaccination is a powerful tool to prevent diseases. Please follow the recommended vaccination schedule for you and your family.",
+      "hi": "टीकाकरण बीमारियों को रोकने के लिए एक शक्तिशाली उपकरण है। कृपया अपने और अपने परिवार के लिए अनुशंसित टीकाकरण कार्यक्रम का पालन करें।",
+      "or": "ଟୀକାକରଣ ରୋଗରୁ ରକ୍ଷା କରିବା ପାଇଁ ଏକ ଶକ୍ତିଶାଳୀ ଉପକରଣ। ଦୟାକରି ଆପଣ ଏବଂ ଆପଣଙ୍କ ପରିବାର ପାଇଁ ସୁପାରିଶ କରାଯାଇଥିବା ଟୀକାକରଣ କାର୍ଯ୍ୟସୂଚୀକୁ ଅନୁସରଣ କରନ୍ତୁ।"
+    },
+    "doctor_consultation": {
+      "en": "Always consult a qualified healthcare professional for a proper diagnosis and treatment. This chatbot is for informational purposes only.",
+      "hi": "उचित निदान और उपचार के लिए हमेशा एक योग्य स्वास्थ्य पेशेवर से परामर्श लें। यह चैटबॉट केवल सूचनात्मक उद्देश्यों के लिए है।",
+      "or": "ଉପଯୁକ୍ତ ନିଦାନ ଏବଂ ଚିକିତ୍ସା ପାଇଁ ସର୍ବଦା ଜଣେ ଯୋଗ୍ୟ ସ୍ୱାସ୍ଥ୍ୟ ବୃତ୍ତିଧାରୀଙ୍କ ସହିତ ପରାମର୍ଶ କରନ୍ତୁ। ଏହି ଚାଟ୍‌ବଟ୍ କେବଳ ସୂଚନା ପାଇଁ ଅଟେ।"
+    }
+  },
+  "disease_symptoms": [
+    {
+      "disease_name": "Tuberculosis",
+      "common_symptoms": [
+        "Persistent cough (lasting >2 weeks)",
+        "Blood in sputum",
+        "Chest pain",
+        "Night sweats",
+        "Weight loss",
+        "Fever and fatigue"
+      ],
+      "prevention_methods": [
+        {
+          "category": "Vaccination",
+          "methods": [
+            "Get BCG vaccination (in countries where recommended)"
+          ]
+        },
+        {
+          "category": "Environment",
+          "methods": [
+            "Ensure good ventilation in living spaces"
+          ]
+        },
+        {
+          "category": "Personal",
+          "methods": [
+            "Wear masks when exposed to active TB patients",
+            "Complete full TB treatment if diagnosed"
+          ]
+        }
+      ]
+    },
+    {
+      "disease_name": "Diabetes",
+      "common_symptoms": [
+        "Frequent urination",
+        "Excessive thirst (polydipsia)",
+        "Increased hunger (polyphagia)",
+        "Unexplained weight loss/gain",
+        "Fatigue",
+        "Blurred vision",
+        "Slow-healing wounds"
+      ],
+      "prevention_methods": [
+        {
+          "category": "Lifestyle",
+          "methods": [
+            "Maintain healthy weight",
+            "Exercise regularly",
+            "Limit alcohol, avoid smoking",
+            "Regular health check-ups (blood sugar monitoring)"
+          ]
+        },
+        {
+          "category": "Diet",
+          "methods": [
+            "Eat balanced diet (low sugar, low refined carbs, high fiber)"
+          ]
+        }
+      ]
+    },
+    {
+      "disease_name": "Hypertension",
+      "common_symptoms": [
+        "Headache (sometimes)",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath",
+        "Nosebleeds (rare, in severe cases)"
+      ],
+      "prevention_methods": [
+        {
+          "category": "Diet",
+          "methods": [
+            "Reduce salt intake",
+            "Eat fruits, vegetables, and whole grains"
+          ]
+        },
+        {
+          "category": "Lifestyle",
+          "methods": [
+            "Exercise regularly",
+            "Avoid smoking and excess alcohol",
+            "Manage stress",
+            "Regular blood pressure checks"
+          ]
+        }
+      ]
+    },
+    {
+      "disease_name": "Malaria",
+      "common_symptoms": [
+        "Fever, which can be intermittent or continuous.",
+        "Chills and rigors (violent shivering).",
+        "Headache.",
+        "Muscle pain (myalgia) and joint pain (arthralgia).",
+        "Nausea and vomiting.",
+        "Loss of appetite."
+      ],
+      "prevention_methods": [
+        {
+          "category": "Personal Protection",
+          "methods": [
+            "Use of mosquito repellent creams, coils, and mats.",
+            "Wearing full-sleeve shirts and pants.",
+            "Using bed nets (especially insecticide-treated ones)."
+          ]
+        },
+        {
+          "category": "Environmental",
+          "methods": [
+            "Remove stagnant water from your surroundings.",
+            "Fill mosquito breeding places and cover stored water properly."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+version: "3.1"
+stories:
+- story: greet and hygiene
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_hygiene
+  - action: utter_hygiene
+- story: ask vaccination
+  steps:
+  - intent: ask_vaccination
+  - action: utter_vaccination
+- story: ask doctor consultation
+  steps:
+  - intent: ask_doctor_consultation
+  - action: utter_doctor_consultation
+- story: ask disease symptoms
+  steps:
+  - intent: ask_disease_symptoms
+    entities:
+      - disease: "tuberculosis"
+      - language: "hi"
+  - action: utter_ask_disease_symptoms
+  - action: action_disease_symptoms
+- story: ask disease prevention
+  steps:
+  - intent: ask_disease_prevention
+    entities:
+      - disease: "tuberculosis"
+      - language: "hi"
+  - action: utter_ask_disease_prevention
+  - action: action_disease_prevention

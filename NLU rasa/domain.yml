@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_hygiene
+  - ask_vaccination
+  - ask_doctor_consultation
+  - ask_disease_symptoms
+  - ask_disease_prevention
+
+actions:
+  - action_disease_symptoms
+  - action_disease_prevention
+
+entities:
+  - disease
+  - language
+slots:
+  disease:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: disease
+  language:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: language
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with your health queries today?"
+  utter_hygiene:
+    - text: "{hygiene}"
+  utter_vaccination:
+    - text: "{vaccination}"
+  utter_doctor_consultation:
+    - text: "{doctor_consultation}"
+  utter_ask_disease_symptoms:
+    - text: "Please specify the disease and language for symptoms."
+  utter_ask_disease_prevention:
+    - text: "Please specify the disease and language for prevention tips."
